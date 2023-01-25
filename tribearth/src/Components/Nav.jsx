@@ -1,11 +1,13 @@
 import React from 'react'
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
+import Logo from '../assets/Tribearth logo.png'
 
 function Nav() {
   return (
     <div className='bg-gray-200 w-full fixed top-0 left-0'>
       <div className="flex flex-col items-center justify-between">
         <span>
-          <img className='' src="../assets/Tribearth logo.png" alt="" />
+          <img className='' src={Logo} alt="" />
         </span>
         <ul className='md:flex hidden'>
           <li className='p-4 text-xl mx-auto text-green-900'><a href="">Story</a></li>
