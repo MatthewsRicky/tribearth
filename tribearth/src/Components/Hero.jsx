@@ -4,7 +4,7 @@ import Logo from "../assets/Tribearth logo.png";
 
 function Hero() {
 	return (
-		<div>
+		<div className='block'>
 			<div
 				className='flex flex-col justify-center items-center sm:flex-shrink'
 				style={{
@@ -12,7 +12,7 @@ function Hero() {
 					height: "100vh",
 					flexShrink: true,
 					backgroundImage: `url(${HeroImage})`,
-					backgroundSize: "cover",
+					backgroundSize: "fill",
 					backgroundPosition: "center",
 					marginTop: "86px",
 				}}>
@@ -22,7 +22,7 @@ function Hero() {
 						src={Logo}
 					/>
 					<div className='mx-auto my-4'>
-						<button className='text-xl text-bold text-black flex justify-center items-center bg-emerald-400 bg-opacity-95 hover:bg-emerald-300 opacity-95 hover:scale-110 duration-200 text-center rounded-xl px-5 py-3 md:scale-125 md:hover:scale-150 my-6 shadow-md'>
+						<button className='text-xl text-bold text-black flex justify-center items-center bg-emerald-300 bg-opacity-95 hover:bg-emerald-200 opacity-95 hover:scale-110 duration-200 text-center rounded-xl px-5 py-3 md:scale-125 md:hover:scale-150 my-6 shadow-md'>
 							EXPLORE
 						</button>
 					</div>
