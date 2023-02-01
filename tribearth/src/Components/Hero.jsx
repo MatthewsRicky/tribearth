@@ -15,10 +15,11 @@ function Hero() {
 					backgroundSize: "fill",
 					backgroundPosition: "center",
 					marginTop: "86px",
+					border: "none",
 				}}>
 				<div className='flex flex-col justify-center w-full h-full bg-gradient-to-b bg-opacity-90 mix-blend-multiply opacity-95 from-neutral-200 to-emerald-100'>
 					<img
-						className='flex  text-2xl md:text-4xl lg:text-5xl p-4 p4 mx-auto'
+						className='flex  text-2xl md:text-4xl lg:text-5xl p-4 p4 mx-auto backdrop:blur'
 						src={Logo}
 					/>
 					<div className='mx-auto my-4'>
