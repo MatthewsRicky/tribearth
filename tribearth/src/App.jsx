@@ -5,6 +5,7 @@ import Hero from "./Components/Hero";
 import Ethos from "./Components/Ethos";
 import Jewelry from "./Components/Jewelry";
 import Location from "./Components/Location";
+import Artisans from "./Components/Artisans";
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 			<Ethos />
 			<Jewelry />
 			<Location />
+			<Artisans />
 		</div>
 	);
 }
