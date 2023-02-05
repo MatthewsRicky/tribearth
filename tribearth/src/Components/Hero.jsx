@@ -23,7 +23,7 @@ function Hero() {
 						src={Logo}
 					/>
 					<div className='mx-auto my-4'>
-						<button className='text-xl text-bold text-black flex justify-center items-center bg-emerald-300 bg-opacity-95 hover:bg-emerald-200 opacity-95 hover:scale-110 duration-200 text-center rounded-xl px-5 py-3 md:scale-125 md:hover:scale-150 my-6 shadow-md'>
+						<button className='text-xl text-bold text-white flex justify-center items-center bg-emerald-300 bg-opacity-95 hover:bg-emerald-200 opacity-95 hover:scale-110 duration-200 text-center rounded-xl px-5 py-3 md:scale-125 md:hover:scale-150 my-6 shadow-md'>
 							EXPLORE
 						</button>
 					</div>
