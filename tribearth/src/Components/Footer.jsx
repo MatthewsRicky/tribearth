@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div>
       <div className="bg-slate-200 h-full w-full flex p-4">
-        <div>
+        <div className='mx-auto justif-center'>
           <h1 className='bold text-xl text-slate-500'>CONTACT DETAILS</h1>
           <h2>Tribearth,</h2>
           <h2>P.O. Box 00100,50600</h2>
@@ -18,7 +18,7 @@ function Footer() {
           </div>
         </div>
 
-        <div>
+        <div className='mx-auto justif-center'>
           <div>
             <h1 className='bold text-xl text-slate-500'>STORY</h1>
             <h2>ABOUT US</h2>
@@ -33,7 +33,7 @@ function Footer() {
           </div>
         </div>
 
-        <div>
+        <div className='mx-auto justif-center'>
           <h1 className='bold text-xl text-slate-500'>CONTACT US</h1>
           <div className='flex flex-col'>
             <h1>name*</h1>
@@ -52,11 +52,15 @@ function Footer() {
             <button className='text-xl text-bold text-white flex justify-center items-center bg-emerald-300 bg-opacity-95 hover:bg-emerald-200 opacity-95 hover:scale-110 duration-200 text-center rounded-xl px-2 py-3 md:hover:scale-105 my-6 shadow-md'>submit</button>
           </div>
         </div>
-        <div>
-          <h1>SUBSCRIBE</h1>
-          <div>
-            <FaFacebook />
-            <FaInstagram />
+        <div className='mx-auto justif-center'>
+          <h1 className='px-4 bold text-xl text-slate-500'>SUBSCRIBE</h1>
+          <div className='flex mx-auto p-4 justify-center '>
+            <h1 className='p-4'>
+              <FaFacebook />
+            </h1>
+            <h1 className='p-4'>
+              <FaInstagram />
+            </h1>
           </div>
         </div>
       </div>
