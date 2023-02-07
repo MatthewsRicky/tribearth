@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaInstagram } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 function Footer() {
   return (
@@ -21,9 +21,9 @@ function Footer() {
         <div className='m-4 mx-auto'>
           <div>
             <h1 className='bold text-xl text-slate-500 my-4'>STORY</h1>
-            <h2>ABOUT US</h2>
-            <h2>IMPACT</h2>
-            <h2>ARTISANS</h2>
+            <h2 className='underlined'>ABOUT US</h2>
+            <h2 className='underlined'>IMPACT</h2>
+            <h2 className='underlined'>ARTISANS</h2>
           </div>
           <div>
             <h1 className='bold text-xl text-slate-500 my-4'>CUSTOMER CARE</h1>
@@ -60,6 +60,12 @@ function Footer() {
             </h1>
             <h1 className='p-4'>
               <FaInstagram />
+            </h1>
+            <h1 className='p-4'>
+              <FaTwitter />
+            </h1>
+            <h1 className='p-4'>
+              <FaLinkedin />
             </h1>
           </div>
         </div>
