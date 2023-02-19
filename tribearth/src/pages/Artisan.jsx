@@ -1,12 +1,12 @@
 import React from 'react'
 import Nav from '../Components/Nav'
-function Impact() {
+function Artisan() {
   return (
     <div>
       <Nav></Nav>
-      Impact
+      Artisan
     </div>
   )
 }
 
-export default Impact
+export default Artisan
