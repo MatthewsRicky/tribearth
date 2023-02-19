@@ -49,11 +49,13 @@ function Nav() {
 				</ul>
 			</div>
 			<div className='shadow-xl flex relative justify-between'>
-				<img
-					className='md:hidden lg:hidden my-4 items-center justify-start pl-16 h-[24px] w-[24] hover:scale-[105%] duration-500'
-					src={Logo}
-					alt='/'
-				/>
+				<Link to="/">
+					<img
+						className='md:hidden lg:hidden my-4 items-center justify-start pl-16 h-[24px] w-[24] hover:scale-[105%] duration-500'
+						src={Logo}
+						alt='/'
+					/>
+				</Link>
 				<div
 					className='md:hidden lg:hidden xl:hidden my-4 mr-16'
 					onClick={handleNav}>

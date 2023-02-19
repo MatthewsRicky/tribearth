@@ -4,11 +4,15 @@ import Green from '../assets/green.png'
 function Learn() {
   return (
     <div style={{
-      backgroundImage: `${<Green />}`,
-      width: '100%',
-      height: '100%',
-      backgroundPosition: 'center',
-      backgroundSize: 'cover',
+      display: "flex",
+      height: "100vh",
+      flexShrink: true,
+      backgroundImage: `url(${Green})`,
+      backgroundSize: "fill",
+      backgroundRepeat: "no-repeat",
+      backgroundPosition: "center",
+      marginTop: "86px",
+      border: "none",
     }}>
       <div
         className='w-full h-[50%]'>

@@ -10,6 +10,7 @@ function Artisans() {
     style={{
       backgroundImage: `url(${Artisanhero})`,
       bacgroundSize: 'fill',
+      backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
       height: '100vh',
       display: 'flex',
