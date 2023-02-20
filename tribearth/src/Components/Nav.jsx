@@ -13,7 +13,7 @@ function Nav() {
 	};
 
 	return (
-		<div className='bg-emerald-300 bg-opacity-90 border-b-[1px] border-emerald-200 shadow-md shadow-black-100 w-full fixed top-0 left-0 mb-40 z-10'>
+		<div className='bg-emerald-100 bg-opacity-90 border-b-[1px] border-emerald-200 shadow-md shadow-black-100 w-full fixed top-0 left-0 mb-40 z-10'>
 			<div className='flex flex-row relative my-3 items-center justify-between'>
 				<a href='index.html'>
 					<img
@@ -68,23 +68,23 @@ function Nav() {
 						? "flex shadow-xl ease-in-out duration-500"
 						: "fixed left-[-100%]"
 				}>
-				<ul className='md:hidden font-medium text-center sm:items-center mx-auto flex-col w-[90%] bg-emerald-300 bg-opacity-80 boder-b-[2px] flex duration-500'>
-					<li className='py-4 px-4 text-3xl mx-auto text-black border-b-[2px]  border-black border-opacity-40 bg-transparent hover:scale-[105%] duration-500 w-[75%] border-l-emerald-200 bg-opacity-100 hover:bg-emerald-200 rounded-lg '>
+				<ul className='md:hidden font-medium text-center sm:items-center mx-auto flex-col w-[90%] bg-emerald-100 bg-opacity-80 boder-b-[2px] flex duration-500'>
+					<li className='py-4 px-4 text-2xl mx-auto text-black border-b-[2px]  border-black border-opacity-40 bg-transparent hover:scale-[105%] duration-500 w-[75%] border-l-emerald-200 bg-opacity-100 hover:bg-emerald-200 rounded-lg '>
 						<Link to="/Story">Story</Link>
 					</li>
-					<li className='py-4 px-4 text-3xl mx-auto text-black border-b-[2px]  border-black border-opacity-40 bg-transparent hover:scale-[105%] duration-500 w-[75%] border-l-emerald-200 bg-opacity-100 hover:bg-emerald-200 rounded-lg '>
+					<li className='py-4 px-4 text-2xl mx-auto text-black border-b-[2px]  border-black border-opacity-40 bg-transparent hover:scale-[105%] duration-500 w-[75%] border-l-emerald-200 bg-opacity-100 hover:bg-emerald-200 rounded-lg '>
 						<Link to="/Impact">Impact</Link>
 					</li>
-					<li className='py-4 px-4 text-3xl mx-auto text-black border-b-[2px]  border-black border-opacity-40 bg-transparent hover:scale-[105%] duration-500 w-[75%] border-l-emerald-200 bg-opacity-100 hover:bg-emerald-200 rounded-lg '>
+					<li className='py-4 px-4 text-2xl mx-auto text-black border-b-[2px]  border-black border-opacity-40 bg-transparent hover:scale-[105%] duration-500 w-[75%] border-l-emerald-200 bg-opacity-100 hover:bg-emerald-200 rounded-lg '>
 						<Link to="/Artisan">Artisans</Link>
 					</li>
-					<li className='py-4 px-4 text-3xl mx-auto text-black border-b-[2px]  border-black border-opacity-40 bg-transparent hover:scale-[105%] duration-500 w-[75%] border-l-emerald-200 bg-opacity-100 hover:bg-emerald-200 rounded-lg '>
+					<li className='py-4 px-4 text-2xl mx-auto text-black border-b-[2px]  border-black border-opacity-40 bg-transparent hover:scale-[105%] duration-500 w-[75%] border-l-emerald-200 bg-opacity-100 hover:bg-emerald-200 rounded-lg '>
 						<Link to="/Vegancafe">Vegan cafe</Link>
 					</li>
-					<li className='py-4 px-4 text-3xl mx-auto text-black border-b-[2px]  border-black border-opacity-40 bg-transparent hover:scale-[105%] duration-500 w-[75%] border-l-emerald-200 bg-opacity-100 hover:bg-emerald-200 rounded-lg '>
+					<li className='py-4 px-4 text-2xl mx-auto text-black border-b-[2px]  border-black border-opacity-40 bg-transparent hover:scale-[105%] duration-500 w-[75%] border-l-emerald-200 bg-opacity-100 hover:bg-emerald-200 rounded-lg '>
 						<Link to="/Shop">Shop</Link>
 					</li>
-					<li className='py-4 px-4 text-3xl mx-auto text-black  bg-transparent hover:scale-[105%] duration-500 w-[75%] l border-l-emerald-200 bg-opacity-60 hover:bg-emerald-200 rounded-lg '>
+					<li className='py-4 px-4 text-2xl mx-auto text-black  bg-transparent hover:scale-[105%] duration-500 w-[75%] l border-l-emerald-200 bg-opacity-60 hover:bg-emerald-200 rounded-lg '>
 						<a href='/'>
 							<FaCartPlus />
 						</a>
