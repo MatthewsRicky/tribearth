@@ -7,12 +7,19 @@ function Impact() {
   return (
     <div>
       <Nav></Nav>
-      <div>
-        <img src={Ethicalgems} alt="" />
-        <div className='bg-emerald-100 w-60'>
-          <h1>Ethical Gemstones</h1>
-          <p>Responsible sourcing of gemstones is of great importance to our brand. Our gemstones are sourced directly from ethical mines run by women in Kenya. We embrace traceability and sustainability throughout our complete supply chain.</p>
+      <div className=''>
+        <div className=''>
+          <img src={Ethicalgems} alt="" />
+
+          <div className='bg-emerald-100 w-[50%]'>
+            <h1 className='text-4xl md:text-5xl text-bol text-center py-4'>Ethical Gemstones</h1>
+            <p className='text-2xl px-4 text-center'>Responsible sourcing of gemstones is of great importance to our brand. Our gemstones are sourced directly from ethical mines run by women in Kenya. We embrace traceability and sustainability throughout our complete supply chain.</p>
+
+          </div>
         </div>
+
+
+
       </div>
       <Footer />
     </div>
