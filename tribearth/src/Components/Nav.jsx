@@ -15,13 +15,14 @@ function Nav() {
 	return (
 		<div className='bg-emerald-100 bg-opacity-90 border-b-[1px] border-emerald-200 shadow-md shadow-black-100 w-full fixed top-0 left-0 mb-40 z-10'>
 			<div className='flex flex-row relative my-3 items-center justify-between'>
-				<a href='index.html'>
+				<Link to='/'>
+
 					<img
 						className='hidden md:flex items-center justify-start pl-16 h-[24px] w-[24] hover:scale-[105%] duration-500'
 						src={Logo}
 						alt='/'
 					/>
-				</a>
+				</Link>
 
 				<ul className='md:flex hidden'>
 					<li className='bold py-4 px-4 text-2xl mx-auto text-black border-l-emerald-200 bg-opacity-100 hover:scale-[105%] hover:bg-emerald-400 rounded-lg duration-200'>
