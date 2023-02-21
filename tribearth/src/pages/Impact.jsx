@@ -8,13 +8,15 @@ function Impact() {
     <div>
       <Nav></Nav>
       <div className=''>
-        <div className=''>
-          <img src={Ethicalgems} alt="" />
+        <div className=''
+          style={{
+            backgroundImage: `url(${Ethicalgems})`,
+            width: '70%',
+          }}>
 
-          <div className='bg-emerald-100 w-[50%]'>
-            <h1 className='text-4xl md:text-5xl text-bol text-center py-4'>Ethical Gemstones</h1>
-            <p className='text-2xl px-4 text-center'>Responsible sourcing of gemstones is of great importance to our brand. Our gemstones are sourced directly from ethical mines run by women in Kenya. We embrace traceability and sustainability throughout our complete supply chain.</p>
-
+          <div className='p-10 bg-emerald-100 w-[50%]'>
+            <h1 className='text-3xl md:text-4xl text-bol text-center py-4'>Ethical Gemstones</h1>
+            <p className='text-xl px-4 text-center'>Responsible sourcing of gemstones is of great importance to our brand. Our gemstones are sourced directly from ethical mines run by women in Kenya. We embrace traceability and sustainability throughout our complete supply chain.</p>
           </div>
         </div>
 
