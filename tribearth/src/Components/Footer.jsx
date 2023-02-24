@@ -49,14 +49,14 @@ function Footer() {
               <h1>message*</h1>
               <input className='h-20' type="text" name="" id="" />
             </div>
-            <button className='text-xl text-bold text-white flex justify-center items-center bg-emerald-300 bg-opacity-95 hover:bg-emerald-200 opacity-95 hover:scale-110 duration-200 text-center rounded-xl px-2 py-3 md:hover:scale-105 my-6 shadow-md'>submit</button>
+            <button className='text-xl text-bold text-emerald-500 flex justify-center items-center bg-transparent border border-emerald-500 hover:bg-emerald-200 opacity-95 hover:scale-110 duration-200 text-center rounded-xl px-2 py-3 md:hover:scale-105 my-6 shadow-md'>submit</button>
           </div>
         </div>
         <div className='m-4 mx-auto'>
           <h1 className='px-4 bold text-xl text-slate-500 my-4'>SUBSCRIBE</h1>
           <h1 className='m-1'>email*</h1>
           <input type="email" name="" id="" />
-          <button className='text-xl text-bold text-white flex justify-center items-center bg-emerald-300 bg-opacity-95 hover:bg-emerald-200 opacity-95 hover:scale-110 duration-200 text-center rounded-xl px-2 py-3 md:hover:scale-105 my-6 shadow-md'>submit</button>
+          <button className='text-xl text-bold text-emerald-500 flex justify-center items-center bg-transparent border border-emerald-500  hover:bg-emerald-200 opacity-95 hover:scale-110 duration-200 text-center rounded-xl px-2 py-3 md:hover:scale-105 my-6 shadow-md'>submit</button>
           <div className='flex mx-auto p-4 justify-center '>
             <h1 className='p-4'>
               <FaFacebook />
