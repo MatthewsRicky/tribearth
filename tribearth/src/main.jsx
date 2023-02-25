@@ -8,6 +8,7 @@ import Impact from './pages/Impact'
 import Shop from './pages/Shop'
 import Story from './pages/Story'
 import Contact from './pages/Contact'
+import Cart from './pages/Cart'
 
 
 import {
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
   {
     path: "Story",
     element: <Story />,
+  },
+  {
+    path: "Cart",
+    element: <Cart />,
   },
 ]);
 

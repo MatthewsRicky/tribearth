@@ -43,9 +43,10 @@ function Nav() {
 						<Link to="/Shop">Shop</Link>
 					</li>
 					<li className='py-4 px-4 text-2xl mx-auto text-black hover:scale-[105%] border-l-emerald-200 bg-opacity-100 hover:bg-emerald-400 rounded-lg duration-500'>
-						<a href='/'>
+						<Link to="/Cart">
 							<FaCartPlus />
-						</a>
+						</Link>
+
 					</li>
 				</ul>
 			</div>
@@ -86,9 +87,9 @@ function Nav() {
 						<Link to="/Shop">Shop</Link>
 					</li>
 					<li className='py-4 px-4 text-2xl mx-auto text-black  bg-transparent hover:scale-[105%] duration-500 w-[75%] l border-l-emerald-200 bg-opacity-60 hover:bg-emerald-200 rounded-lg '>
-						<a href='/'>
+						<Link to="/Cart">
 							<FaCartPlus />
-						</a>
+						</Link>
 					</li>
 				</ul>
 			</div>
