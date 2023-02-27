@@ -42,9 +42,11 @@ function Cart() {
   return (
     <div>
       <Nav></Nav>
-      <h2>Cart</h2>
-      <ul>{itemList}</ul>
-      <h3>Total: ${calculateTotal()}</h3>
+      <div className='flex flex-col justify-center items-center p-12 bg-slate-100 mx-auto my-32'>
+        <h2 className='text-4xl m-4 bold'>Cart</h2>
+        <ul>{itemList}</ul>
+        <h3>Total: ${calculateTotal()}</h3>
+      </div>
       <Footer></Footer>
     </div>
   );
