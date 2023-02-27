@@ -46,7 +46,7 @@ function Cart() {
       <div className='flex flex-col justify-center items-center p-8 bg-slate-100 mx-12 my-32 rounded-xl shadow-xl'>
         <h2 className='text-4xl m-4 bold '>Cart</h2>
         <ul className='flex flex-col text-xl'>{itemList}</ul>
-        <h3 className='text-xl p-4 hover:scale-105'>Total: ${calculateTotal()}</h3>
+        <h3 className='text-xl p-4 hover:cursor-pointer hover:scale-105'>Total: ${calculateTotal()}</h3>
         <h1 className="text-xl text-emerald-500 p4">Thank you!</h1>
       </div>
       <Footer></Footer>
