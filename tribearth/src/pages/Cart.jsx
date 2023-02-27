@@ -31,7 +31,7 @@ function Cart() {
     <li className='p-3' key={item.id}>
       {item.name} - ${item.price} x
       <input
-        className='outline-item'
+        className='hover:highlight hover:bg-emerald-100'
         type="number"
         min="1"
         value={item.quantity}
