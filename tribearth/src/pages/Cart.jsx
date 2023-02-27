@@ -28,9 +28,10 @@ function Cart() {
 
   // Render the list of items in the cart
   const itemList = items.map(item => (
-    <li key={item.id}>
+    <li className='p-3' key={item.id}>
       {item.name} - ${item.price} x
       <input
+        className='outline-item'
         type="number"
         min="1"
         value={item.quantity}
@@ -42,10 +43,11 @@ function Cart() {
   return (
     <div>
       <Nav></Nav>
-      <div className='flex flex-col justify-center items-center p-12 bg-slate-100 mx-auto my-32'>
-        <h2 className='text-4xl m-4 bold'>Cart</h2>
-        <ul>{itemList}</ul>
-        <h3>Total: ${calculateTotal()}</h3>
+      <div className='flex flex-col justify-center items-center p-8 bg-slate-100 mx-12 my-32 rounded-xl shadow-xl'>
+        <h2 className='text-4xl m-4 bold '>Cart</h2>
+        <ul className='flex flex-col text-xl'>{itemList}</ul>
+        <h3 className='text-xl p-4'>Total: ${calculateTotal()}</h3>
+        <h1 className="text-xl text-emerald-500 p4">Thank you!</h1>
       </div>
       <Footer></Footer>
     </div>
