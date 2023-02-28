@@ -11,7 +11,7 @@ function Artisan() {
     <div>
       <Nav></Nav>
       <div className='flex flex-col m-10 mt-36'>
-        <div className='flex justify-between m-4 p-8 bg-slate-100 items-center rounded-xl'>
+        <div className='flex sm:flex-col justify-between m-4 p-8 bg-slate-100 items-center rounded-xl w-full h-[80vh]'>
           <img className='w-60 m-2 ' src={Florence} alt="" />
           <div>
             <h1>FLORENCE IMIZA - Assembling Chief</h1>
@@ -21,7 +21,7 @@ function Artisan() {
           </div>
 
         </div>
-        <div className='flex justify-between m-4 p-8 bg-slate-100 items-center rounded-xl'>
+        <div className='flex justify-between m-4 p-8 bg-slate-100 items-center rounded-xl w-full h-[80vh]'>
           <div >
             <h1>FRED NYONGESA - Soldering King</h1>
             <p>
@@ -29,9 +29,9 @@ function Artisan() {
             </p>
           </div>
 
-          <img className='w-60 m-2 ' src={Fred} alt="" />
+          <img className='w-[50%] m-2 ' src={Fred} alt="" />
         </div>
-        <div className='flex justify-between m-4 p-8 bg-slate-100 items-center rounded-xl'>
+        <div className='flex justify-between m-4 p-8 bg-slate-100 items-center rounded-xl w-full h-[80vh]'>
           <img className='w-60 m-2 ' src={Adam} alt="" />
           <div>
             <h1>ADAM NGERI - Supply Chain Manager </h1>
@@ -41,7 +41,7 @@ function Artisan() {
           </div>
 
         </div>
-        <div className='flex justify-between m-4 p-8 bg-slate-100 items-center rounded-xl'>
+        <div className='flex justify-between m-4 p-8 bg-slate-100 items-center rounded-xl w-full h-[80vh]'>
           <div >
             <h1>LENA INDUSA KAGONI -  Polishing Queen</h1>
             <p>
