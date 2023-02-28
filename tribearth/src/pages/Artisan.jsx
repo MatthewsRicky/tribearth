@@ -53,6 +53,20 @@ function Artisan() {
         </div>
       </div>
 
+      <div className="w-64 shadow-md rounded-md overflow-hidden flex flex-col">
+        <img
+          className="w-full h-48 object-cover"
+          src={Lena}
+          alt="Card Image"
+        />
+        <div className="p-4">
+          <h1 className="text-xl font-semibold mb-2">LENA INDUSA KAGONI -  Polishing Queen</h1>
+          <p className="text-gray-700 text-base">
+            My name is Lena, I feel blessed to have a job right now during Covid as I know many people who have been laid off and unable to look after their family. I have 2 kids that I am able to take care of because I have a stable income. I buff and polish all of the jewelry at Tribearth to make sure they shine bright and make our customers happy.
+          </p>
+        </div>
+      </div>
+
       <Footer />
     </div>
   )
