@@ -10,7 +10,7 @@ function Artisan() {
   return (
     <div>
       <Nav></Nav>
-      <div className='flex m-10 mt-36'>
+      <div className='flex flex-wrap mx-auto justify-around m-10 mt-36 hover:scale-105'>
         <div className="w-64 shadow-md rounded-md overflow-hidden flex flex-col">
           <img
             className="w-full h-48 object-cover"
