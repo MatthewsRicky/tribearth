@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from '../Components/Nav'
 import Footer from '../Components/Footer'
+import Athens from '../assets/RingsSliderImages/Athens Delight.jpeg'
 
 const Shop = () => {
   const products = [
@@ -8,8 +9,7 @@ const Shop = () => {
       id: 1,
       name: "Product 1",
       price: 9.99,
-      image:
-        "https://via.placeholder.com/400x400.png?text=Product+1",
+      image: `(${Athens})`,
     },
     {
       id: 2,
@@ -30,7 +30,7 @@ const Shop = () => {
   return (
     <div>
       <Nav></Nav>
-      <div className="mt-36 bg-emerald-500">
+      <div className="mt-36 bg-emerald-100">
         <div className="container mx-auto py-12">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {products.map((product) => (
