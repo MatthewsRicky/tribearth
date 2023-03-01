@@ -8,11 +8,18 @@ function Impact() {
     <div className='relative'>
       <Nav></Nav >
 
-
-
-      <div className='flex flex-col my-24 rounded-2xl py-6 md:w-[40%] bg-emerald-100 w-[50%]'>
-        <h1 className='text-3xl md:text-4xl text-bol text-center py-4'>Ethical Gemstones</h1>
-        <p className='text-xl px-4 text-center'>Responsible sourcing of gemstones is of great importance to our brand. Our gemstones are sourced directly from ethical mines run by women in Kenya. We embrace traceability and sustainability throughout our complete supply chain.</p>
+      <div className="w-64 shadow-md rounded-md overflow-hidden flex flex-col">
+        <img
+          className="w-full h-48 object-cover"
+          src={Ethicalgems}
+          alt="Card Image"
+        />
+        <div className="p-4">
+          <h1 className="text-xl font-semibold mb-2">Ethical Gemstones</h1>
+          <p className="text-gray-700 text-base">
+            Responsible sourcing of gemstones is of great importance to our brand. Our gemstones are sourced directly from ethical mines run by women in Kenya. We embrace traceability and sustainability throughout our complete supply chain.
+          </p>
+        </div>
       </div>
 
       <Footer />
