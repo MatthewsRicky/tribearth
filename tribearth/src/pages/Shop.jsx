@@ -31,19 +31,19 @@ const Shop = () => {
     {
       id: 4,
       name: "Bands of Delilah",
-      price: 80.00,
+      price: 55.00,
       image: Delilah,
     },
     {
       id: 5,
       name: "Drops of Lilac",
-      price: 65.00,
+      price: 40.00,
       image: Lilac,
     },
     {
       id: 6,
       name: "Eye of Osiris",
-      price: 65.00,
+      price: 40.00,
       image: Osiris,
     },
   ];
@@ -51,9 +51,9 @@ const Shop = () => {
   return (
     <div>
       <Nav></Nav>
-      <div className="mt-36 bg-emerald-100">
+      <div className="mt-36 mx-8">
         <div className="container mx-auto py-12">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {products.map((product) => (
               <div
                 key={product.id}
