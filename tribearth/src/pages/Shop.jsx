@@ -2,28 +2,28 @@ import React from 'react'
 import Nav from '../Components/Nav'
 import Footer from '../Components/Footer'
 import Athens from '../assets/RingsSliderImages/Athens Delight.jpeg'
+import Aurora from '../assets/RingsSliderImages/Auroras Light.jpeg'
+import Bacchus from '../assets/RingsSliderImages/bands of bacchus.jpeg'
 
 const Shop = () => {
   const products = [
     {
       id: 1,
-      name: "Product 1",
+      name: "Athen's Delight",
       price: 9.99,
       image: Athens,
     },
     {
       id: 2,
-      name: "Product 2",
+      name: "Aurora's Delight",
       price: 19.99,
-      image:
-        "https://via.placeholder.com/400x400.png?text=Product+2",
+      image: Aurora,
     },
     {
       id: 3,
-      name: "Product 3",
+      name: "Bands of Bacchus",
       price: 29.99,
-      image:
-        "https://via.placeholder.com/400x400.png?text=Product+3",
+      image: Bacchus,
     },
   ];
 
