@@ -4,6 +4,9 @@ import Footer from '../Components/Footer'
 import Athens from '../assets/RingsSliderImages/Athens Delight.jpeg'
 import Aurora from '../assets/RingsSliderImages/Auroras Light.jpeg'
 import Bacchus from '../assets/RingsSliderImages/bands of bacchus.jpeg'
+import Delilah from '../assets/RingsSliderImages/Bands of Delilah.jpeg'
+import Lilac from '../assets/RingsSliderImages/Drops of Lilac.jpeg'
+import Osiris from '../assets/RingsSliderImages/Eye of Osiris.jpeg'
 
 const Shop = () => {
   const products = [
@@ -27,21 +30,21 @@ const Shop = () => {
     },
     {
       id: 4,
-      name: "Athen's Delight",
+      name: "Bands of Delilah",
       price: 80.00,
-      image: Athens,
+      image: Delilah,
     },
     {
       id: 5,
-      name: "Aurora's Delight",
+      name: "Drops of Lilac",
       price: 65.00,
-      image: Aurora,
+      image: Lilac,
     },
     {
       id: 6,
-      name: "Bands of Bacchus",
+      name: "Eye of Osiris",
       price: 65.00,
-      image: Bacchus,
+      image: Osiris,
     },
   ];
 
