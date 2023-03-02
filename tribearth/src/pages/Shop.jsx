@@ -10,19 +10,37 @@ const Shop = () => {
     {
       id: 1,
       name: "Athen's Delight",
-      price: 9.99,
+      price: 80.00,
       image: Athens,
     },
     {
       id: 2,
       name: "Aurora's Delight",
-      price: 19.99,
+      price: 65.00,
       image: Aurora,
     },
     {
       id: 3,
       name: "Bands of Bacchus",
-      price: 29.99,
+      price: 65.00,
+      image: Bacchus,
+    },
+    {
+      id: 4,
+      name: "Athen's Delight",
+      price: 80.00,
+      image: Athens,
+    },
+    {
+      id: 5,
+      name: "Aurora's Delight",
+      price: 65.00,
+      image: Aurora,
+    },
+    {
+      id: 6,
+      name: "Bands of Bacchus",
+      price: 65.00,
       image: Bacchus,
     },
   ];
