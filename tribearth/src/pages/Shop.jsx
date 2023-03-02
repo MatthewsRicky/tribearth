@@ -52,6 +52,42 @@ const Shop = () => {
       price: 40.00,
       image: Osiris,
     },
+    {
+      id: 7,
+      name: "Athen's Delight",
+      price: 80.00,
+      image: Athens,
+    },
+    {
+      id: 8,
+      name: "Aurora's Delight",
+      price: 65.00,
+      image: Aurora,
+    },
+    {
+      id: 9,
+      name: "Bands of Bacchus",
+      price: 65.00,
+      image: Bacchus,
+    },
+    {
+      id: 10,
+      name: "Bands of Delilah",
+      price: 55.00,
+      image: Delilah,
+    },
+    {
+      id: 11,
+      name: "Drops of Lilac",
+      price: 40.00,
+      image: Lilac,
+    },
+    {
+      id: 12,
+      name: "Eye of Osiris",
+      price: 40.00,
+      image: Osiris,
+    },
   ];
 
   return (
