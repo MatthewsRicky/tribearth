@@ -1,81 +1,31 @@
 import React from 'react'
 import Nav from '../Components/Nav'
 import Footer from '../Components/Footer'
+import Anjeera from '..assets/anjeera.jpeg'
+import Coffee from '..assets/coffee.jpeg'
+import Fruitbowls from '..assets/fruitbowls.jpeg'
 
 function Vegancafe() {
   const products = [
     {
       id: 1,
-      name: "Athen's Delight",
-      price: 80.00,
-      image: Athens,
+      name: "Anjeera Platter",
+      price: 9.00,
+      image: Anjeera,
     },
     {
       id: 2,
-      name: "Aurora's Delight",
-      price: 65.00,
-      image: Aurora,
+      name: "Ethiopian Coffee",
+      price: 2.00,
+      image: Coffee,
     },
     {
       id: 3,
-      name: "Bands of Bacchus",
+      name: "Fruit bowls",
       price: 65.00,
-      image: Bacchus,
+      image: Fruitbowls,
     },
-    {
-      id: 4,
-      name: "Bands of Delilah",
-      price: 55.00,
-      image: Delilah,
-    },
-    {
-      id: 5,
-      name: "Drops of Lilac",
-      price: 40.00,
-      image: Lilac,
-    },
-    {
-      id: 6,
-      name: "Eye of Osiris",
-      price: 40.00,
-      image: Osiris,
-    },
-    {
-      id: 7,
-      name: "Golden Spiral",
-      price: 28.00,
-      image: Golden,
-    },
-    {
-      id: 8,
-      name: "Kali's Crown",
-      price: 28.00,
-      image: Kali,
-    },
-    {
-      id: 9,
-      name: "Ocean Peace",
-      price: 65.00,
-      image: Ocean,
-    },
-    {
-      id: 10,
-      name: "Purple Moon",
-      price: 45.00,
-      image: Purple,
-    },
-    {
-      id: 11,
-      name: "Sirene's Wings",
-      price: 85.00,
-      image: Sirene,
-    },
-    {
-      id: 12,
-      name: "Talisman's Tale",
-      price: 80.00,
-      image: Osiris,
-    },
+
   ];
 
   return (
