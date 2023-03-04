@@ -82,6 +82,10 @@ function Vegancafe() {
     <div>
       <Nav></Nav>
       <div className="mt-36 mx-8">
+        <div className='mt-36'>
+          <h1 className="bold text-center text-4xl md:text-5xl flex justify-center items-center">Vegan Boutique Cafe</h1>
+          <p className="underline">Our vegan café at heart is a mix of Ethiopian food, Swahili snacks and healthy vegan bitings.</p>
+        </div>
         <div className="container mx-auto py-12">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {products.map((product) => (
@@ -110,19 +114,6 @@ function Vegancafe() {
   );
 };
 
-return (
-  <div>
-    <section>
-      <Nav></Nav>
-      <div className='mt-36'>
-        <h1 className="bold text-center text-4xl md:text-5xl flex justify-center items-center">Vegan Boutique Cafe</h1>
-        <p className="underline">Our vegan café at heart is a mix of Ethiopian food, Swahili snacks and healthy vegan bitings.</p>
-      </div>
 
-    </section>
-    <Footer />
-  </div>
-)
-}
 
 export default Vegancafe
