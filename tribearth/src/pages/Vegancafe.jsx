@@ -10,7 +10,7 @@ function Vegancafe() {
     {
       id: 1,
       name: "Anjeera Platter",
-      price: 9.00,
+      price: 9.50,
       image: Anjeera,
     },
     {
@@ -22,7 +22,7 @@ function Vegancafe() {
     {
       id: 3,
       name: "Fruit bowls",
-      price: 65.00,
+      price: 4.50,
       image: Fruitbowls,
     },
 
