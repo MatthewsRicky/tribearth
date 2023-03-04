@@ -1,18 +1,12 @@
 import React from 'react'
 import Nav from '../Components/Nav'
 import Footer from '../Components/Footer'
-import Anjeera from '..assets/anjeera.jpeg'
+
 import Coffee from '..assets/coffee.jpeg'
 import Fruitbowls from '..assets/fruitbowls.jpeg'
 
 function Vegancafe() {
   const products = [
-    {
-      id: 1,
-      name: "Anjeera Platter",
-      price: 9.00,
-      image: Anjeera,
-    },
     {
       id: 2,
       name: "Ethiopian Coffee",
