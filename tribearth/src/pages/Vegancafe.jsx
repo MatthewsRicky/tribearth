@@ -21,7 +21,7 @@ function Vegancafe() {
     },
     {
       id: 3,
-      name: "Fruit bowls",
+      name: "Healthy Vegan Snacks",
       price: 4.50,
       image: Fruitbowls,
     },
