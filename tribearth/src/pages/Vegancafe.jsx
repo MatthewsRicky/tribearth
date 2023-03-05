@@ -12,6 +12,7 @@ function Vegancafe() {
       name: "Ethiopian Platter and Wraps",
       price: 9.50,
       image: Anjeera,
+      description: "With the right ingredients, baobab, coconut milk, moringa, chocolate, peanut butter, and mango deliciousness, our smoothie bowls are just the perfect meal in a bowl.",
     },
     {
       id: 2,
@@ -53,6 +54,7 @@ function Vegancafe() {
                     {product.name}
                   </h2>
                   <p className="text-gray-800 text-lg">${product.price}</p>
+                  <p className="text-gray-800 text-lg">${product.description}</p>
                 </div>
               </div>
             ))}
