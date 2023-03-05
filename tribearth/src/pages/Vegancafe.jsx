@@ -9,7 +9,7 @@ function Vegancafe() {
   const products = [
     {
       id: 1,
-      name: "Ethiopian Platter and Snacks",
+      name: "Ethiopian Platter and Wraps",
       price: 9.50,
       image: Anjeera,
     },
