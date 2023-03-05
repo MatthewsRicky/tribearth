@@ -9,13 +9,13 @@ function Vegancafe() {
   const products = [
     {
       id: 1,
-      name: "Anjeera Platter",
+      name: "Ethiopian Platter and Snacks",
       price: 9.50,
       image: Anjeera,
     },
     {
       id: 2,
-      name: "Ethiopian Coffee",
+      name: "Freshly Roasted Ethiopian Coffee",
       price: 2.00,
       image: Coffee,
     },
