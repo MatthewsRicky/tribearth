@@ -4,6 +4,7 @@ import Footer from '../Components/Footer'
 import Anjeera from '../assets/anjeera.jpeg'
 import Coffee from '../assets/coffee.jpeg'
 import Fruitbowls from '../assets/fruitbowls.jpeg'
+import Carousel from '../Components/Carousel'
 
 function Vegancafe() {
   const products = [
@@ -62,6 +63,7 @@ function Vegancafe() {
             ))}
           </div>
         </div>
+        <Carousel></Carousel>
       </div>
       <Footer></Footer>
     </div>
