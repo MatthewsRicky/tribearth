@@ -15,28 +15,42 @@ import Purple from '../assets/RingsSliderImages/Purple Moon.jpeg'
 import Sirene from '../assets/RingsSliderImages/Sirenes Wings.jpeg'
 import Talisman from '../assets/RingsSliderImages/Talismans Tale.jpeg'
 
+const images = [
+  Athens,
+  Aurora,
+  Bacchus,
+  Delilah,
+  Lilac,
+  Osiris,
+  Golden,
+  Kali,
+  Ocean,
+  Purple,
+  Sirene,
+  Talisman,
+];
 
 function Carousel() {
-
-  const images = [
-    Athens,
-    Aurora,
-    Bacchus,
-    Delilah,
-    Lilac,
-    Osiris,
-    Golden,
-    Kali,
-    Ocean,
-    Purple,
-    Sirene,
-    Talisman,
-  ];
-
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  };
 
   return (
-    <div>Carousel</div>
-  )
+    <Slider {...settings}>
+      {images.map((image, index) => (
+        <div key={index}>
+          <img src={image} alt={`Image ${index + 1}`} />
+        </div>
+      ))}
+    </Slider>
+  );
 }
+
 
 export default Carousel
