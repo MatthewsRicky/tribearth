@@ -5,6 +5,7 @@ import Anjeera from '../assets/anjeera.jpeg'
 import Coffee from '../assets/coffee.jpeg'
 import Fruitbowls from '../assets/fruitbowls.jpeg'
 import Carousel from '../Components/Carousel'
+import Reservation from '../Components/Reservation'
 
 function Vegancafe() {
   const products = [
@@ -64,15 +65,7 @@ function Vegancafe() {
           </div>
         </div>
         <Carousel></Carousel>
-        <div>
-          <h1 className="text-5xl p4 flex mx-auto bold">Make a reservation</h1>
-          <div className='border my-6'>
-            <h1>Name:</h1>
-            <input type="text" />
-          </div>
-
-        </div>
-
+        <Reservation></Reservation>
       </div>
       <Footer></Footer>
     </div>
