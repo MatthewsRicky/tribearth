@@ -47,7 +47,7 @@ function Carousel() {
           className='p-2'
           key={index}>
           <img
-            className='rounded shadow-lg hover:scale-105'
+            className='rounded shadow-lg hover:scale-105 '
             src={image} alt={`Image ${index + 1}`} />
         </div>
       ))}
