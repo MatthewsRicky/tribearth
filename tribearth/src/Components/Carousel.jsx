@@ -1,7 +1,4 @@
 import React from 'react'
-import Slider from "react-slick"
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import Athens from '../assets/RingsSliderImages/Athens Delight.jpeg'
 import Aurora from '../assets/RingsSliderImages/Auroras Light.jpeg'
 import Bacchus from '../assets/RingsSliderImages/bands of bacchus.jpeg'
