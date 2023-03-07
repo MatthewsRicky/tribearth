@@ -40,10 +40,15 @@ function Carousel() {
   };
 
   return (
-    <Slider {...settings}>
+    <Slider
+      {...settings}>
       {images.map((image, index) => (
-        <div key={index}>
-          <img src={image} alt={`Image ${index + 1}`} />
+        <div
+          className='p-2'
+          key={index}>
+          <img
+            className='rounded shadow-lg hover:scale-105'
+            src={image} alt={`Image ${index + 1}`} />
         </div>
       ))}
     </Slider>
