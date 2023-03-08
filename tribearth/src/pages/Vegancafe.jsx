@@ -1,6 +1,9 @@
 import React from 'react'
 import Nav from '../Components/Nav'
 import Footer from '../Components/Footer'
+import Anjeera from '../assets/anjeera.jpeg'
+import Coffee from '../assets/coffee.jpeg'
+import Fruitbowls from '../assets/fruitbowls.jpeg'
 import Carousel from '../Components/Carousel'
 import Reservation from '../Components/Reservation'
 import Products from '../Components/Products'
@@ -16,7 +19,7 @@ function Vegancafe() {
       <div className="mt-36 mx-8">
         <div className='mt-36'>
           <h1 className="bold text-center text-4xl md:text-5xl flex justify-center items-center">Vegan Boutique Cafe</h1>
-          <p className="flex mx-auto text-3xl underline">Our vegan café at heart is a mix of Ethiopian food, Swahili snacks and healthy vegan bitings.</p>
+          <p className="underline">Our vegan café at heart is a mix of Ethiopian food, Swahili snacks and healthy vegan bitings.</p>
         </div>
         <div className="container mx-auto py-12">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

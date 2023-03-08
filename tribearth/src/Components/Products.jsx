@@ -1,4 +1,7 @@
 import React from 'react'
+import Anjeera from '../assets/anjeera.jpeg'
+import Coffee from '../assets/coffee.jpeg'
+import Fruitbowls from '../assets/fruitbowls.jpeg'
 
 
 const products = [
