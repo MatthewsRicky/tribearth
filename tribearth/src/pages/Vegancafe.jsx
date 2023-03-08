@@ -6,6 +6,7 @@ import Coffee from '../assets/coffee.jpeg'
 import Fruitbowls from '../assets/fruitbowls.jpeg'
 import Carousel from '../Components/Carousel'
 import Reservation from '../Components/Reservation'
+import Products from '../Components/Products'
 
 function Vegancafe() {
   const products = [
