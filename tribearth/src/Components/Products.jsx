@@ -26,6 +26,13 @@ const products = [
     image: Fruitbowls,
     description: "Gluten free Injera with hearty traditional Ethiopian stews and vegs is one of our main meals. Something about Ethiopian platters that just tastes better when shared with friends.",
   },
+  {
+    id: 3,
+    name: "Healthy Vegan Snacks",
+    price: 4.50,
+    image: Fruitbowls,
+    description: "Gluten free Injera with hearty traditional Ethiopian stews and vegs is one of our main meals. Something about Ethiopian platters that just tastes better when shared with friends.",
+  },
 
 ];
 function Products() {
