@@ -35,11 +35,11 @@ const products = [
   },
 
 ];
-function Products() {
+function Products(products) {
   return (
-    <div>products</div>
+    products
   )
 }
 
-export default products
+export default Products
 
