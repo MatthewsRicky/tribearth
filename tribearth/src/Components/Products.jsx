@@ -37,7 +37,7 @@ const products = [
 ];
 function Products(products) {
   return (
-    products
+    <>products</>
   )
 }
 
